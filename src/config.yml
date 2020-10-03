@@ -1,0 +1,13 @@
+handleMessages: true
+handleCommands: true
+messageFormat: '%USER% > %TEXT%'
+links:
+  chat:
+    enable: false
+    link: 'http://localhost:3000/send?text=%TEXT%'
+  vk:
+    enable: false
+    link: 'https://api.vk.com/method/messages.send?access_token=YOUR_TOKEN&peer_id=99999&random_id=%RND%&message=%TEXT%&v=5.124'
+  telegram:
+    enable: true
+    link: 'https://api.telegram.org/bot123:TOKEN/sendMessage?chat_id=99999&text=%TEXT%'

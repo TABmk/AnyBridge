@@ -1,0 +1,10 @@
+main: tab_mk.AnyBridge.Main
+name: AnyBridge
+version: 1.0
+author: TAB_mk
+api-version: 1.16
+commands:
+   abreload:
+      description: reload AnyBridge config
+      permission: anybridge.reload
+      usage: /<command>
